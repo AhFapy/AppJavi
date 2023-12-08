@@ -1,0 +1,129 @@
+.default-btn {
+    width: 10rem;
+    height: 3rem;
+    padding: 1px 2px 2px 1px;
+    border-radius: 0.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(105,112,216);
+    background: linear-gradient(90deg, rgba(105,112,216,1) 16%, rgba(86,175,235,1) 100%);
+}
+
+.default-btn:hover {
+    cursor: pointer;
+}
+
+.layer-span {
+    width: 75%;
+    height: 75%;
+    width: 75%;
+    height: 75%;
+    border-radius: 0.75rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.box {
+    width: 25vw;
+    height: 60vh;
+    background-color: white;
+    border-radius: 1.75rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid black;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.box-functionality-div {
+    width: 33.3%;
+    transition: all 0.3s ease-in-out;
+}
+
+.selected-box {
+    width: 25vw;
+    height: 60vh;
+    background-color: blue;
+    border-radius: 1.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+.selected-box-title {
+    color: white;
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 2rem;
+}
+
+.box-title {
+    color: #0078FF;
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 2rem;
+}
+
+.box-description-div {
+    width: 100%;
+    height: 100%;
+}
+
+.box-description-span {
+    color: #0078FF;
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+
+.selected-text {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+
+
+/* .plus-container {
+    background: rgb(105,112,216);
+    background: linear-gradient(0deg, rgba(105,112,216,1) 16%, rgba(86,175,235,1) 100%);
+    border-radius: 1rem;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.plus-container:hover {
+    cursor: pointer;
+}
+
+.plus-svg {
+    fill: white;
+} */
