@@ -20,15 +20,15 @@ function LandingPage() {
         <div className='box-container'>
 
           <div className='box-functionality-div' onClick={() => handleSelection("coaching")}>
-          <BoxComponent title="Automatización" selected={selectedDiv === "coaching" ? "selected-box" : "box"}/>
+          <BoxComponent title="Automatización" selected={selectedDiv === "coaching" ? "selected-box" : "box"} route="/automatizacion"/>
           </div>
 
           <div className='box-functionality-div' id='empresas' onClick={() => handleSelection("empresas")}>
-            <BoxComponent title="Servicios para Empresas" selected={selectedDiv === "empresas" ? "selected-box" : "box"}/>
+            <BoxComponent title="Servicios para Empresas" selected={selectedDiv === "empresas" ? "selected-box" : "box"} route="/empresas"/>
           </div>
 
           <div className='box-functionality-div' id='newsletter' onClick={() => handleSelection("newsletter")}>
-            <BoxComponent title="Newsletter" selected={selectedDiv === "newsletter" ? "selected-box" : "box"}/>
+            <BoxComponent title="Newsletter" selected={selectedDiv === "newsletter" ? "selected-box" : "box"} route="/newsletter"/>
           </div>
 
         </div>

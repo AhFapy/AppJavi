@@ -11,7 +11,7 @@ function BoxComponent(props) {
           <span className={props.selected === "selected-box" ? "selected-text" : "box-description-span"}>Subtítulo Descriptivo</span><br/><br/><br/><br/>
           <span className={props.selected === "selected-box" ? "selected-text" : "box-description-span"}>Subtítulo Descriptivo</span><br/><br/><br/><br/>
         </div>
-        {props.selected === "selected-box" ? <LandingPageBtn/> : ""}
+        {props.selected === "selected-box" ? <LandingPageBtn route={props.route}/> : ""}
     </div>
     </div>
   )

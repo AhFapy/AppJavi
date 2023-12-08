@@ -1,0 +1,32 @@
+.tilt-wrapper {
+    width: 100%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tilt-box {
+    background-color: white;
+    border: 4px solid #0078FF;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 1.5rem;
+    margin: 5rem;
+}
+
+.top-tilt-box {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.bottom-tilt-box {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
