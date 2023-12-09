@@ -127,3 +127,21 @@
 .plus-svg {
     fill: white;
 } */
+
+.comencemos-wrap {
+    width: 100%;
+    height: 75vh;
+    padding-left: 5%;
+}
+
+.comencemos-h1 {
+    color: #0078FF;
+    font-weight: 600;    
+    font-size: 3rem;
+}
+
+.comencemos-p {
+    margin-top: 1rem;
+    margin-bottom: 9rem;
+    font-size: 1.5rem;
+}

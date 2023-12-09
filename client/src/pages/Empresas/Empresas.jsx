@@ -2,6 +2,8 @@ import React from 'react'
 import LandingPageNav from '../landing-page/LandingPageNav'
 import "./empresas.css"
 import { Tilt } from 'react-tilt'
+import DropDown from './DropDown'
+import Comencemos from '../../components/Comencemos'
 
 function ServiceCard(props) {
     const defaultOptions = {
@@ -35,6 +37,14 @@ function Empresas() {
         <ServiceCard key={i} text={text} />
     ))}
     </div>
+    <div className='dropdown-div'>
+        <DropDown 
+        pregunta="¿Qué va a conseguir tu empresa?"
+        respuesta={`Un crecimiento exponencial`}
+        argumentos={["texto 1", "texto 2"]}
+        />
+    </div>
+    <Comencemos/>
     </>
     
   )
