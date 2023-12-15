@@ -4,6 +4,7 @@ import LandingPage from './pages/landing-page/LandingPage'
 import Auth from './pages/Auth/Auth'
 import ClientArea from './pages/client-area/ClientArea'
 import Empresas from './pages/Empresas/Empresas'
+import Automatizacion from './pages/Automatizacion/Automatizacion'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Routes>
         <Route path='/' element={<LandingPage/>}/>
         <Route path='/auth' element={<Auth/>}/>
+        <Route path='/automatizacion' element={<Automatizacion/>}/>
         <Route path='/empresas' element={<Empresas/>}/>
         <Route path='/area-de-cliente' element={<ClientArea/>}/>
       </Routes>

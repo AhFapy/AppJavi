@@ -1,0 +1,40 @@
+
+.automatizacion-wrapper {
+    width: 100%;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.lorem {
+    font-size: 1.8rem;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 3rem;
+}
+
+.header-h2 {
+    font-size: 3.5rem;
+}
+
+.experiencias-container {
+    width: 100%;
+    margin-top: 25vh;
+}
+
+.experiencias-h2 {
+    font-size: 3rem;
+    margin-left: 5%;
+    color: #0078FF;
+    margin-bottom: 2rem;
+}
+
+.slide-container {
+    height: 50vh;
+    background-color: purple;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 10vh;
+}
