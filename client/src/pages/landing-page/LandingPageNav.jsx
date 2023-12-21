@@ -9,7 +9,9 @@ function LandingPageNav() {
   return (
     <div className='lp-nav'>
       <div className='lp-nav-left'>
-        <span className="lp-nav-header" onClick={handleClick}>Javier Marco</span>
+        <div className="logo-circle">
+          <img onClick={handleClick} className="nav-logo" src="/logo-no-bg.png"></img>
+        </div>
       </div>
       <div className='lp-nav-right'>
         <a className="nav-btn" route="/cliente">Área de Cliente</a>

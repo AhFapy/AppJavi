@@ -13,6 +13,7 @@ function LandingPage() {
 
   return (
     <div className="landing-page-container">
+          <LandingPageNav/>
         <div className='lp-header-div'>
           <h2 className='header-h2'>Un Sueño Sin Plan, Sigue Siendo Un Sueño.</h2>
         </div>

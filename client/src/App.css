@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'lexend';
+  src: url('./fonts/lexend/lexend-def.ttf');
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
