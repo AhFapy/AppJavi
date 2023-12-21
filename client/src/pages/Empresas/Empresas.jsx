@@ -32,21 +32,26 @@ function Empresas() {
   return (
     <>
     <LandingPageNav/>
+
+    <div className='header-empresas'>
+        <h2 className='header-h2'>Automatiza Procesos y Monetiza tu Hobby</h2>
+        <div className='black'>
+            <span className='white-text'>*video*</span>
+        </div>
+    </div>
+
+    <div className='header-empresas'>
+        <h2 className='header-h2'>Experiencias Previas</h2>
+    </div>
+
     <div className='tilt-wrapper'>
     {services.map((text, i) => (
         <ServiceCard key={i} text={text} />
     ))}
     </div>
-    <div className='dropdown-div'>
-        <DropDown 
-        pregunta="¿Qué va a conseguir tu empresa?"
-        respuesta={`Un crecimiento exponencial`}
-        argumentos={["texto 1", "texto 2"]}
-        />
-    </div>
+
     <Comencemos/>
     </>
-    
   )
 }
 

@@ -19,11 +19,11 @@ function LandingPage() {
         <div className='box-container'>
 
           <div className='box-functionality-div' onClick={() => handleSelection("coaching")}>
-          <BoxComponent title="Automatización" selected={selectedDiv === "coaching" ? "selected-box" : "box"} route="/automatizacion"/>
+          <BoxComponent title="Automatización" selected={selectedDiv === "coaching" ? "selected-box" : "box"} route="/automatizacion" texto="- Tiempo, + Dinero"/>
           </div>
 
           <div className='box-functionality-div' id='empresas' onClick={() => handleSelection("empresas")}>
-            <BoxComponent title="Servicios para Empresas" selected={selectedDiv === "empresas" ? "selected-box" : "box"} route="/empresas"/>
+            <BoxComponent title="Servicios para Empresas" selected={selectedDiv === "empresas" ? "selected-box" : "box"} route="/empresas" texto="Automatiza Procesos y Monetiza tu Hobby"/>
           </div>
 
           <div className='box-functionality-div' id='newsletter' onClick={() => handleSelection("newsletter")}>

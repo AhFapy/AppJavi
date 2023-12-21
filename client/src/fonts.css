@@ -1,4 +1,8 @@
 @font-face {
     font-family: 'lexend';
-    src: url('./fonts/lexend/lexend-def.tff') format('tff'),
+    src: url('./fonts/lexend/lexend-def.ttf') format('ttf');
+}
+
+* {
+    font-family: lexend;
 }

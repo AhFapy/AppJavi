@@ -11,7 +11,9 @@ function Automatizacion() {
     <LandingPageNav/>
     <div className='automatizacion-wrapper'>
         <h2 className='header-h2'>Automatización</h2>
-        <p className='lorem'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae reiciendis animi deleniti a iusto facilis nisi similique maiores vel unde? Velit sunt corrupti perferendis repudiandae, nesciunt saepe nisi nostrum illum?</p>
+        <div className='black-div'><span className='black-div-white'>*video*</span></div>
+        <p className='lorem'>Te pondría un texto super largo con toda la información pero son solo palabras, no es real. Ahí tienes
+        un vídeo mío, así soy yo. Si te interesa, puedo ayudarte, si te lo piensas, no es para tí.</p>
     </div>
     <div className='experiencias-container'>
         <h2 className='experiencias-h2'>Experiencias</h2>
