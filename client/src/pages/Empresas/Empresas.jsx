@@ -34,14 +34,14 @@ function Empresas() {
     <LandingPageNav/>
 
     <div className='header-empresas'>
-        <h2 className='header-h2'>Automatiza Procesos y Monetiza tu Hobby</h2>
+        <h2 className='header-empresas-h2'>Automatiza Procesos y Monetiza tu Hobby</h2>
         <div className='black'>
             <span className='white-text'>*video*</span>
         </div>
     </div>
 
     <div className='header-empresas'>
-        <h2 className='header-h2'>Experiencias Previas</h2>
+        <h2 className='header-empresas-h2'>Experiencias Previas</h2>
     </div>
 
     <div className='tilt-wrapper'>

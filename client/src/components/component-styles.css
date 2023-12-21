@@ -29,7 +29,6 @@
 
 .box-wrapper {
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
     width: 100%;
@@ -37,7 +36,7 @@
 
 .box {
     width: 25vw;
-    height: 60vh;
+    height: 30vh;
     background-color: white;
     border-radius: 1.75rem;
     display: flex;
@@ -59,7 +58,7 @@
 
 .selected-box {
     width: 25vw;
-    height: 60vh;
+    height: 30vh;
     background-color: blue;
     border-radius: 1.75rem;
     display: flex;
@@ -107,6 +106,68 @@
     margin-bottom: 1rem;
 }
 
+@media(max-width: 1400px) {
+
+    .box {
+        height: 40vh;
+    }
+
+    .selected-box {
+        height: 40vh;
+    }
+    
+    .box-title {
+        font-size: 24px;
+    }
+    .box-description-div {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .box-description-span {
+        color: #0078FF;
+        font-size: 20px;
+        margin-bottom: 1rem;
+    }    
+}
+
+@media(max-width: 1500px) {
+    .selected-box-title {
+        font-size: 25px;
+    }
+}
+
+@media(max-width: 850px) {
+    .selected-box-title {
+        font-size: 20px;
+    }
+    .box-title {
+        font-size: 20px;
+    }
+    
+    .box-description-span {
+        font-size: 24px;
+    }    
+    .selected-text {
+        color: white;
+        font-size: 24px;
+        margin-bottom: 1rem;
+    }
+}
+
+@media(max-width: 700px) {
+    .box {
+        width: 50vw;
+        height: 40vh;
+    }
+
+    .selected-box {
+        height: 40vh;
+        width: 50vw;
+    }
+
+    }
+
 
 /* .plus-container {
     background: rgb(105,112,216);
@@ -144,6 +205,22 @@
     margin-top: 1rem;
     margin-bottom: 9rem;
     font-size: 1.5rem;
+}
+
+@media (max-width: 500px) {
+    .comencemos-h1 {
+        font-size: 2.5rem;
+        margin: 0;
+    }
+    .comencemos-p {
+        font-size: 1.25rem;
+        margin-left: 0;
+        margin-right: 0;
+    }    
+    .comencemos-wrap {
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 .button-66 {
