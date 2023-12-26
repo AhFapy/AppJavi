@@ -1,0 +1,27 @@
+.item{
+    height: 40rem;
+    min-width: 30rem;
+    padding: 2rem;
+}
+.item img{
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem;
+    pointer-events: none;
+}
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: grab;
+}
+.slider-container{
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+.slider-text {
+    color: black;
+    text-align: center;
+}
+

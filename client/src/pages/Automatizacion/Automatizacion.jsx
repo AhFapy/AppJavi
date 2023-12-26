@@ -2,8 +2,8 @@ import React from 'react'
 import "./automatizacion-styles.css"
 import LandingPageNav from '../landing-page/LandingPageNav'
 import "../landing-page/landing-page-styles.css"
-import Carousel from './slider/Carousel'
 import Comencemos from '../../components/Comencemos'
+import Slider from '../../components/Slider/Slider'
 
 function Automatizacion() {
   return (
@@ -17,7 +17,7 @@ function Automatizacion() {
     </div>
     <div className='experiencias-container'>
         <h2 className='experiencias-h2'>Experiencias</h2>
-        <Carousel/>
+        <Slider/>
     </div>
     <Comencemos/>
     </>

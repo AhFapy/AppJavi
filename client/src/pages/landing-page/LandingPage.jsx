@@ -23,12 +23,13 @@ function LandingPage() {
           <BoxComponent title="Automatización" selected={selectedDiv === "coaching" ? "selected-box" : "box"} route="/automatizacion" texto="- Tiempo, + Dinero"/>
           </div>
 
-          <div className='box-functionality-div' id='empresas' onClick={() => handleSelection("empresas")}>
-            <BoxComponent title="Servicios para Empresas" selected={selectedDiv === "empresas" ? "selected-box" : "box"} route="/empresas" texto="Automatiza Procesos y Monetiza tu Hobby"/>
+          <div className='box-functionality-div' id='newsletter' onClick={() => handleSelection("newsletter")}>
+            <BoxComponent title="" selected={selectedDiv === "newsletter" ? "selected-box" : "box"} route="/newsletter" texto="Newsletter"/>
           </div>
 
-          <div className='box-functionality-div' id='newsletter' onClick={() => handleSelection("newsletter")}>
-            <BoxComponent title="Newsletter" selected={selectedDiv === "newsletter" ? "selected-box" : "box"} route="/newsletter"/>
+
+          <div className='box-functionality-div' id='empresas' onClick={() => handleSelection("empresas")}>
+            <BoxComponent title="Servicios para Empresas" selected={selectedDiv === "empresas" ? "selected-box" : "box"} route="/empresas" texto="Automatiza Procesos y Monetiza tu Hobby"/>
           </div>
 
         </div>
