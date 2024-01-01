@@ -19,6 +19,12 @@
     padding-left: 5%;
 }
 
+.nav-span {
+    font-size: 2rem;
+    margin-left: 1.5rem;
+    color: white;
+}
+
 .logo-circle {
     background-color: white;
     border-radius: 100%;
@@ -27,10 +33,13 @@
     display: flex;
     justify-self: center;
     align-items: center;
+    transition: all 0.2s ease-in-out;
 }
+
 
 .logo-circle:hover {
     cursor: pointer;
+    opacity: 75%;
 }
 
 .nav-logo {
@@ -105,9 +114,28 @@
     font-weight: 500;
 }
 
+@media (max-width: 1300px) {
+    #header-h2 {
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    #header-h2 {
+        font-size: 3rem;
+    }
+}
+
+
 @media (max-width: 1000px) {
     #header-h2 {
         font-size: 2.75rem;
+    }
+}
+
+@media (max-width: 850px) {
+    #header-h2 {
+        font-size: 2.25rem;
     }
 }
 
@@ -122,6 +150,13 @@
     .landing-page-container {
         height: 200vh;
     }
+
+    @media (max-width: 850px) {
+        #header-h2 {
+            font-size: 2.15rem;
+        }
+    }
+    
 }
 
 

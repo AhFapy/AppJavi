@@ -1,4 +1,13 @@
+@font-face {
+    font-family: 'fsme';
+    src: url('../../assets/fsme.otf');
+  }
+  @font-face {
+    font-family: 'space-grotesk';
+    src: url('../../assets/spacegrotesk.ttf');
+  }
 
+  
 .automatizacion-wrapper {
     width: 100%;
     margin-top: 3rem;
@@ -9,16 +18,29 @@
 }
 
 .lorem {
-    text-align:justify;
+    text-align:center;
     font-size: 2rem;
     margin-left: 20%;
     margin-right: 20%;
     margin-top: 3rem;
+    font-weight: 300;
+}
+
+.marked {
+    font-weight: 500;
 }
 
 .header-h2 {
-    font-size: 3.5rem;
+    font-size: 4rem;
+    font-family: "fsme";
+    font-weight: 500;
 }
+
+#header-h2-automatizacion {
+    font-family: space-grotesk;
+    font-weight: 600;
+}
+
 
 .black-div {
     background-color: black;
@@ -28,6 +50,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .black-div-white {
@@ -37,13 +60,16 @@
 .experiencias-container {
     width: 100%;
     margin-top: 25vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
 }
 
 .experiencias-h2 {
-    font-size: 3rem;
-    margin-left: 5%;
+    font-size: 3.5rem;
     color: #0078FF;
     margin-bottom: 2rem;
+    font-family: "space-grotesk";
 }
 
 .slide-container {
@@ -52,6 +78,44 @@
     padding-left: 5%;
     padding-right: 5%;
     margin-bottom: 10vh;
+}
+
+.automatizacion-header-container {
+    border: black 2px solid;
+    padding: 1rem 1rem 1rem 1rem;
+    rotate: -2deg;    
+}
+
+.flechas-div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.flecha-izq {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.flecha-der {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.flecha-automatizacion-der {
+    margin-top: 5rem;
+    width: 12rem;
+    height: 8rem;
+    rotate: -50deg;
+}
+
+.flecha-automatizacion-izq {
+    margin-top: 5rem;
+    width: 12rem;
+    height: 8rem;
+    rotate: 50deg;
 }
 
 @media (max-width: 1000px) {

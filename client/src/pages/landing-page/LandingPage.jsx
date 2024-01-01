@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import LandingPageNav from './LandingPageNav'
 import "./landing-page-styles.css"
 import BoxComponent from '../../components/BoxComponent'
+import NewsLetterComponent from '../../components/NewsLetterComponent';
 
 function LandingPage() {
   const [selectedDiv, setSelectedDiv] = useState(null);
@@ -24,7 +25,7 @@ function LandingPage() {
           </div>
 
           <div className='box-functionality-div' id='newsletter' onClick={() => handleSelection("newsletter")}>
-            <BoxComponent title="" selected={selectedDiv === "newsletter" ? "selected-box" : "box"} route="/newsletter" texto="Newsletter"/>
+            <NewsLetterComponent selected={selectedDiv === "newsletter" ? "selected-box" : "box"}/>
           </div>
 
 

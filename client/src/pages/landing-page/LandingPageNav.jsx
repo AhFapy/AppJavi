@@ -12,6 +12,7 @@ function LandingPageNav() {
         <div className="logo-circle">
           <img onClick={handleClick} className="nav-logo" src="/logo-no-bg.png"></img>
         </div>
+        <span className="nav-span">Javier Marco</span>
       </div>
       <div className='lp-nav-right'>
         <a className="nav-btn" route="/cliente">Área de Cliente</a>
